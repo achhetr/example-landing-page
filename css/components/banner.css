@@ -1,0 +1,39 @@
+.banner {
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.center-info {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: flex-start;
+	color: white;
+	padding: 32px 32px 48px 64px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 16px black;
+}
+
+.center-info h1 {
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.center-info p {
+	font-size: 20px;
+}
+
+.center-info a {
+	background-color: #d81e5b;
+	padding: 8px 32px;
+	border: 2px solid white;
+	border-radius: 32px;
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+}
+.center-info a:hover {
+	background-color: #bb1b50;
+}
